@@ -46,6 +46,7 @@ Digital Multimeter | Keithley DMM6500
 - ReportLab
 
 -------------------------------
+
 ## Test Procedure
 
 The automation performs the following sequence:
@@ -66,7 +67,6 @@ The automation performs the following sequence:
 
 -------------------------
 
-
 ## Acceptance Criteria
 
 | Parameter     | Limit   |
@@ -76,38 +76,6 @@ The automation performs the following sequence:
 | Overshoot     | <100 mV |
 | Undershoot    | <100 mV |
 | Recovery Time | <200 µs |
-
-----------------------------
-
-## Running the Test
-
-Execute
-
-
-python main.py
-
---------------------------
-
-## Output
-
-After execution, the following files are generated.
-
-
-results/
-
-measurements.csv
-
-Test_Report.pdf
-
-waveforms/
-
-3V6_20260715_101210.png
-
-3V3_20260715_101530.png
-
-1V8_20260715_101845.png
-
-2V5_20260715_102015.png
 
 
 ------------------------------
